@@ -113,3 +113,18 @@ input[type='text'] {
   border: 1px solid #03c024;
   background-color: #03c024;
 }
+
+/* 대관 일정 등록 */
+.high .spaceDate {
+  position: relative;
+}
+.high .spaceDate h2 {
+}
+.high .spaceDate input[type='date']::before {
+  content: attr(data-placeholder);
+  width: 100%;
+}
+.high .spaceDate input[type='date']:focus::before,
+.high .spaceDate input[type='date']:valid::before {
+  display: none;
+}
