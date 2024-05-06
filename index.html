@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>연남 예약 페이지</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css"
+    />
+    <!-- 프리텐다드 글꼴 가져오기 -->
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script defer src="./js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="inner">
+      <section class="high">
+        <h1>큐리어스 연남 <span>대관 신청하기</span></h1>
+        <div class="nameinfo">
+          <h2>이름과 전화번호를 적어주세요</h2>
+          <div class="input-wrap">
+            <input type="text" placeholder="예) 홍길동 / 010-1234-5678" />
+          </div>
+        </div>
+        <div class="spaceType">
+          <h2>대관 종류를 선택해주세요</h2>
+          <label>
+            <span class="text1">전체대관</span>
+            <input
+              type="radio"
+              name="spaceType"
+              value="전체대관"
+              class="radio1"
+            />
+          </label>
+          <label>
+            <span class="text2">실내대관</span>
+            <input
+              type="radio"
+              name="spaceType"
+              value="실내대관"
+              class="radio2"
+            />
+          </label>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
